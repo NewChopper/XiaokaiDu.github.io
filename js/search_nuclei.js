@@ -151,7 +151,7 @@ function LIENmap(Z,N,test1){
      if (test1==-1) { 
         var m="./nuclear_data/"+Z_dir+"/"+Z_dir+N_dir+".html";
         var m1="./index.html#detail";
-        var m2="./nuclear_data/"+Z_dir+"/"+Z_dir+N_dir+".GIF";
+        var m2="./nuclear_data/"+Z_dir+"/"+Z_dir+N_dir+".gif";
         document.getElementById('detail').src = m2;
       }
    }
@@ -282,7 +282,7 @@ function LIEN(cZ,cN){
       var N_dir="N"+N;
       var m="./nuclear_data/"+Z_dir+"/"+Z_dir+N_dir+".html";
       var m1="./index.html#detail";
-      var m2="./nuclear_data/"+Z_dir+"/"+Z_dir+N_dir+".GIF";
+      var m2="./nuclear_data/"+Z_dir+"/"+Z_dir+N_dir+".gif";
       document.getElementById('detail').src = m2;
    }
    //return m;
