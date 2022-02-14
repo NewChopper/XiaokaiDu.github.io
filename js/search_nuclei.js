@@ -141,8 +141,8 @@ function noyau(){
 }
 
 function LIENmap(Z,N,test1){
-   var m="./homepage.html";
-   var m1="./homepage.html";
+   var m="./index.html";
+   var m1="./index.html";
    if ((!(isNaN(N))) && (!(isNaN(Z)))) { 
      var Z=parseFloat(Z);
      var N=parseFloat(N);
@@ -150,7 +150,7 @@ function LIENmap(Z,N,test1){
      var N_dir="N"+N;
      if (test1==-1) { 
         var m="./nuclear_data/"+Z_dir+"/"+Z_dir+N_dir+".html";
-        var m1="./homepage.html#detail";
+        var m1="./index.html#detail";
         var m2="./nuclear_data/"+Z_dir+"/"+Z_dir+N_dir+".GIF";
         document.getElementById('detail').src = m2;
       }
@@ -161,8 +161,8 @@ function LIENmap(Z,N,test1){
 
 
 function LIEN(cZ,cN){
-   var m="./homepage.html";
-   var m1="./homepage.html";
+   var m="./index.html";
+   var m1="./index.html";
    var lim=new Array(120);
    for (var i=1;i<121;i++) {
       lim[i]=new Array(4);
@@ -266,13 +266,13 @@ function LIEN(cZ,cN){
        }
        if (izz*inn!=0) {
          alert("None!");
-         var m="./hompage.html";
+         var m="./index.html";
 
        }
       }
      if (izz+inn==0){
        alert("None!");
-       var m="./homepage.html";
+       var m="./index.html";
       }
    }
    if (test1==-1) {
@@ -281,7 +281,7 @@ function LIEN(cZ,cN){
       var Z_dir="Z"+Z;
       var N_dir="N"+N;
       var m="./nuclear_data/"+Z_dir+"/"+Z_dir+N_dir+".html";
-      var m1="./homepage.html#detail";
+      var m1="./index.html#detail";
       var m2="./nuclear_data/"+Z_dir+"/"+Z_dir+N_dir+".GIF";
       document.getElementById('detail').src = m2;
    }
