@@ -17,9 +17,9 @@ function changeZN(a,b) {
     var N = a.slice(N1+1,D);
     var Z=parseInt(Z);
     var N=parseInt(N);
-    if (b==1) {Z=Z+2; var Z_dir="Z"+Z; var N_dir="N"+N; document.getElementById('detail').src="./nuclear_data/"+Z_dir+"/"+Z_dir+N_dir+".GIF";}
-    else if (b==2) {N=N-2; var Z_dir="Z"+Z; var N_dir="N"+N; document.getElementById('detail').src="./nuclear_data/"+Z_dir+"/"+Z_dir+N_dir+".GIF";}
-    else if (b==3) {N=N+2; var Z_dir="Z"+Z; var N_dir="N"+N; document.getElementById('detail').src="./nuclear_data/"+Z_dir+"/"+Z_dir+N_dir+".GIF";}
-    else {Z=Z-2; var Z_dir="Z"+Z; var N_dir="N"+N; document.getElementById('detail').src="./nuclear_data/"+Z_dir+"/"+Z_dir+N_dir+".GIF";}
+    if (b==1) {Z=Z+2; var Z_dir="Z"+Z; var N_dir="N"+N; document.getElementById('detail').src="./nuclear_data/"+Z_dir+"/"+Z_dir+N_dir+".gif";}
+    else if (b==2) {N=N-2; var Z_dir="Z"+Z; var N_dir="N"+N; document.getElementById('detail').src="./nuclear_data/"+Z_dir+"/"+Z_dir+N_dir+".gif";}
+    else if (b==3) {N=N+2; var Z_dir="Z"+Z; var N_dir="N"+N; document.getElementById('detail').src="./nuclear_data/"+Z_dir+"/"+Z_dir+N_dir+".gif";}
+    else {Z=Z-2; var Z_dir="Z"+Z; var N_dir="N"+N; document.getElementById('detail').src="./nuclear_data/"+Z_dir+"/"+Z_dir+N_dir+".gif";}
  
 }
